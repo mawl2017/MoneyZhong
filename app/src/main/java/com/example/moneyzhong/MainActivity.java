@@ -13,6 +13,9 @@ import java.util.Random;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private TextView tv_one,tv_two,tv_threen;
+
+    public static final String  TAG="MainActivity";
+
     private TextView btn_one,btn_two,btn_threen;
 
     @Override
@@ -32,6 +35,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_one.setOnClickListener(this::onClick);
         btn_two.setOnClickListener(this::onClick);
         btn_threen.setOnClickListener(this::onClick);
+
+        Log.d(TAG, "onCreate: 测试一下");
 
 
     }
