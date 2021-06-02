@@ -31,12 +31,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_two=(TextView)findViewById(R.id.btn_sel_two);
         btn_threen=(TextView)findViewById(R.id.btn_sel_threen);
 
-
         btn_one.setOnClickListener(this::onClick);
         btn_two.setOnClickListener(this::onClick);
         btn_threen.setOnClickListener(this::onClick);
 
         Log.d(TAG, "onCreate: 测试一下");
+
+        Single.getInstance().SetLog();
 
 
     }
