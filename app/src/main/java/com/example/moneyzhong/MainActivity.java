@@ -37,7 +37,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         Log.d(TAG, "onCreate: 测试一下");
 
+
+
         Single.getInstance().SetLog();
+
+
+
+        Log.d(TAG, "onCreate: 测试一下  第二次了 哈哈哈哈哈哈 ");
 
 
     }
