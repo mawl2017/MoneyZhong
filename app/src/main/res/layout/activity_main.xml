@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="彩票中大奖"></TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#000"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ff0000"
+            android:textSize="18sp"
+            android:text="双色球"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"
+            android:padding="15dp"></TextView>
+        <View
+            android:layout_width="2px"
+            android:layout_height="match_parent"
+            android:background="#000"></View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:id="@+id/tv_one"></TextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="#000"></View>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#ff0000"
+                android:gravity="center"
+                android:text="机选双色球"
+                android:background="#AAB2B7"
+                android:padding="10dp"
+                android:id="@+id/btn_sel_one"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#000"></View>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_height="2px"
+        android:background="#000"></View>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#1bb731"
+            android:textSize="18sp"
+            android:text="大乐透"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"
+            android:padding="15dp"></TextView>
+        <View
+            android:layout_width="2px"
+            android:layout_height="match_parent"
+            android:background="#000"></View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:id="@+id/tv_two"></TextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="#000"></View>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#1bb731"
+                android:gravity="center"
+                android:text="机选大乐透"
+                android:background="#AAB2B7"
+                android:padding="10dp"
+                android:id="@+id/btn_sel_two"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#000"></View>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_height="2px"
+        android:background="#000"></View>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffc000"
+            android:textSize="18sp"
+            android:text="七星彩"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"
+            android:padding="15dp"></TextView>
+        <View
+            android:layout_width="2px"
+            android:layout_height="match_parent"
+            android:background="#000"></View>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:id="@+id/tv_threen"></TextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="#000"></View>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#ffc000"
+                android:gravity="center"
+                android:text="机选七星彩"
+                android:background="#AAB2B7"
+                android:padding="10dp"
+                android:id="@+id/btn_sel_threen"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#000"></View>
+
+
+
+
+
+</LinearLayout>
